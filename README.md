@@ -3,10 +3,10 @@ Belajar bersama Chef Chocowo
 
 # Website Belajar Bareng
 
-##Arti
+## Arti
 - branch = cabang
 - repo = gudang
-- 
+
 ## Alur kerja 
 1. Selalu `git pull` sebelum mulai kerja.
 2. Buat perubahan di file masing-masing.
