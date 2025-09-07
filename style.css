@@ -1,6 +1,19 @@
 body {
-    background-color: darkred;
+    background-image: url('123.gif');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    
+    background-size: cover;
 }
 h1 {
-    color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin-top: 20%;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px #000000;
 }
