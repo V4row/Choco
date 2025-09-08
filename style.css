@@ -1,5 +1,5 @@
 body {
-    background-image: url('123.gif');
+    background-image: url('/image/123.gif');
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -16,4 +16,18 @@ h1 {
     margin-top: 20%;
     font-size: 3em;
     text-shadow: 2px 2px 4px #000000;
+}
+button {
+    background-color: #070000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px; 
+    transition-duration: 0.4s;
 }

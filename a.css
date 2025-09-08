@@ -1,0 +1,39 @@
+body {
+    background-color: #560202;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: #fff;
+    text-align: left;
+    padding: 20px;
+    font-size: 2em;
+    text-shadow: 1px 1px 2px #000;
+}
+pre {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    overflow-x: auto;
+    font-size: 1em;
+}
+pre code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #560202;
+    font-size: 1em;
+}
+button {
+    background-color: #070000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px; 
+    transition-duration: 0.4s;
+}
