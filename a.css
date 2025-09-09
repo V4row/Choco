@@ -1,39 +1,36 @@
-body {
-    background-color: #560202;
-    font-family: Arial, sans-serif;
+body {background-image: url('/image/230.gif');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
     margin: 0;
     padding: 0;
+    height: 100vh;
+    background-size: cover;
+    margin : 0px;
 }
-h1 {
-    color: #fff;
-    text-align: left;
-    padding: 20px;
-    font-size: 2em;
-    text-shadow: 1px 1px 2px #000;
+
+h1 {text-align: center;}
+main {
+    margin-left: 20px;
+    margin-right: 20px;
 }
-pre {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    overflow-x: auto;
-    font-size: 1em;
+.navbar ul {
+    list-style-type: none;
+    background-color: grey;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
 }
-pre code {
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #560202;
-    font-size: 1em;
-}
-button {
-    background-color: #070000;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    text-align: center;
+.navbar a {
+    color : white;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 4px; 
-    transition-duration: 0.4s;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover {
+    background-color: rgb(46, 46, 46);
+}
+.navbar li {
+    float: left;
 }
