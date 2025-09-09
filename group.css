@@ -1,12 +1,11 @@
-body {
-    background-image: url('/image/123.gif');
+body{
+    background-image: url('/image/230.gif');
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
     margin: 0;
     padding: 0;
     height: 100vh;
-    
     background-size: cover;
 }
 h1 {
@@ -27,15 +26,23 @@ button {
     color: white;
     border: aliceblue;
     padding: 10px 20px;
+    text-align: justify;
     text-decoration: solid;
     font-size: 16px;
     margin: 4px 2px;
     border-radius: 4px; 
     transition-duration: 0.4s;
     position: fixed;
-    left : 10px;
     right: 10px;
+    left: 10px;
     bottom: 10px;
     scroll-margin: 10px;
 }
-
+p{
+    color: white;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin-top: 5%;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 4px #000000;
+}
