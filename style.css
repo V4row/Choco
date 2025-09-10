@@ -20,22 +20,26 @@ h1 {
     border-radius: 10px;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.5);
+}
     
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
 }
-button {
-    background-color: #070000;
+
+.navbar a{
     color: white;
-    border: aliceblue;
-    padding: 10px 20px;
-    text-decoration: solid;
-    font-size: 16px;
-    margin: 4px 2px;
-    border-radius: 4px; 
-    transition-duration: 0.4s;
-    position: fixed;
-    left : 10px;
-    right: 10px;
-    bottom: 10px;
-    scroll-margin: 10px;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.navbar a:hover {
+    background-color:rgba(3, 255, 251, 0.475);
+}
+
 
