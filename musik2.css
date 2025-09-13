@@ -17,12 +17,13 @@ body{
   padding: 20px;
   height: 410px;
   width: 300px;
-  background:linear-gradiend;
+  background-color: white;
   border-radius: 8px;
-  box-shadow: 0 0 4px rgba(0,0,0,.4)
+  box-shadow: 0 0 4px rgba(3, 0, 0, 0.4)
 }
-
-
+audio{
+  width:100%;
+}
 .music-app .image{
   width: 100px;
   height: 100px;
