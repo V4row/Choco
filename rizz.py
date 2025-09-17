@@ -1,10 +1,13 @@
-import turtle
-import math
+code = input('masukan kode anda ')
 
-t = turtle.Turtle()
-t.speed(0)
-t.color("white", "red")
-turtle.bgcolor("pink")
+if code == "i love you": 
+    
+    import turtle
+    import math
+    t = turtle.Turtle()
+    t.speed(0)
+    t.color("white", "red")
+    turtle.bgcolor("pink")
 
 def corazon(n):
     x = 16 * math.sin(n) ** 3
