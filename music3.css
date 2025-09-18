@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  background: linear-gradient(135deg,#ff00c8,rgb(255, 138, 4))
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container .music-app{
+  padding: 20px;
+  height: 410px;
+  width: 300px;
+  background: #ffffffa3;
+  border-radius: 8px;
+  box-shadow: 0 0 4px rgba(0,0,0,.4)
+}
+audio{
+  width: 100%;
+}
+  
+
+
+.music-app .image{
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  margin-bottom: 90px;
+  position: relative;
+  right: 2px;
+}
+.music-app .image img{
+  width: 270px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.music-app .tooltip{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.music-app .tooltip .audio-tag{
+  margin-top: 5px;
+  font-size: 16px;
+}
+.music-app .tooltip .audio-name{
+  font-size: 18px;
+}
+
+.music-app .settings input:active{
+  background: #3498db;
+}
+.music-app .settings input::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  width: 13px;
+  height: 13px;
+  background: linear-gradient(135deg,#2980b9,#16a085);
+  border-radius: 50%;
+}
+.music-app .settings .time{
+  font-size: 15px;
+  color: #95a5a6;
+}
+.music-app .settings .time.two{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  left: 120px;
+  bottom: 18px;
+}
+.music-app .icons{
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+
+
+
