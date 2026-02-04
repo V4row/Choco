@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Parkour Bola</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="modeSelect">
+  <h2>Pilih Mode</h2>
+  <button onclick="setMode('easy')">😄 Mudah</button>
+  <button onclick="setMode('hard')">😈 Susah</button>
+</div>
+
+<div id="ui">
+  <div id="score">Skor: 0</div>
+  <div id="highScore">High Score: 0</div>
+</div>
+
+<div id="gameOver">
+  <h1>GAME OVER</h1>
+  <p id="finalScore"></p>
+
+  <input id="playerName" placeholder="Nama kamu" maxlength="10">
+  <button onclick="saveScore()">Simpan Skor</button>
+
+  <h3>🥇 Leaderboard Lokal</h3>
+  <ol id="leaderboard"></ol>
+
+  <h3>🌐 Leaderboard Online</h3>
+  <ol id="onlineLeaderboard"></ol>
+
+  <button onclick="showMode()">Main Lagi</button>
+</div>
+
+<audio id="bgm" src="bgm.mp3" loop preload="auto"></audio>
+<canvas id="game"></canvas>
+
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
